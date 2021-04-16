@@ -12,7 +12,7 @@ Personal Portfolio built with React.
 [React Portfolio](https://github.com/HurleySquared/react-portfolio)
 
 ## Deployed Portfolio
-[Deployed Portfolio]()
+[Deployed Portfolio] ()
 
 ## Screenshots
 ![React Portfolio](src/images/portfolio-ss.png)
