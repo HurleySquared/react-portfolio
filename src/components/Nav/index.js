@@ -14,7 +14,7 @@ function Nav() {
               <Link className="nav-link" to="/Projects">Projects</Link>
             </li>
             <li className="nav-item col-md">
-              <Link className="nav-link" to="/Contact">Contact Me</Link>
+              <Link className="nav-link" to="/Contact">Contact</Link>
             </li>
           </ul>
         </div>
