@@ -1,0 +1,13 @@
+footer {
+  display: flex;
+  background-color: burlywood;
+  padding: 20px;
+  justify-content: center;
+}
+
+h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: #333;
+}

@@ -1,10 +1,10 @@
 import React from "react";
-// import Nav from "./Nav";
+import "./style.css";
 
 function Footer() {
   return (
     <footer>
-      <h3>Eric Hurley | Portfolio | 2021</h3>
+      <h3>Eric Hurley | Full-Stack Developer</h3>
     </footer>
   )
 };

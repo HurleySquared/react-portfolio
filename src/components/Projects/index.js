@@ -69,7 +69,7 @@ function Projects() {
           <h5 className="card-title">Password Generator Application</h5>
           <img src={pass} className="card-img-top" alt="..." />
           <p className="card-text">This application will randomly generate a password between 8-128 characters.</p>
-          <a href="https://hurleysquared.github.io/password-generator/" className="card-link hidden">Deployed Application</a>
+          <a href="https://hurleysquared.github.io/password-generator/" className="card-link">Deployed Application</a>
           <a href="https://github.com/HurleySquared/password-generator" className="card-link">Password Generator Repo</a>
         </div>
       </div>

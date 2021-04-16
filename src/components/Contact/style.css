@@ -1,0 +1,25 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+h2 {
+  color: black;
+  font-size: 40px !important;
+  text-align: center;
+  font-weight: 500 !important;
+}
+
+.contact a {
+  font-size: 36px;
+  font-family: 'Crimson Text', serif;
+  text-decoration: none !important;
+  color: black;
+}
+
+.contact a:hover {
+  cursor: grabbing;
+  color: red;
+}
