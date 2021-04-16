@@ -8,6 +8,11 @@
   justify-content: center;
 }
 
+.card-body {
+  background-color: #666;
+  border-radius: 4px;
+}
+
 .card-title {
   text-align: center;
   font-family: 'Cinzel', serif;
@@ -16,20 +21,20 @@
 
 .card-text {
   text-align: center;
-  color: black;
+  color: #fff;
   font-family: 'Crimson Text', serif;
 }
 
 .card-link {
   text-decoration: none !important;
-  color: red;
+  color: burlywood;
   font-size: 16px;
 }
 
 .card-link:hover {
   cursor: grab;
   opacity: .8px;
-  color: black;
+  color: #fff;
 }
 
 /* Media Queries */

@@ -1,0 +1,10 @@
+.navbar {
+  display: flex;
+  text-align: center;
+}
+
+.nav-item a {
+  text-decoration: none !important;
+  color:black;
+  font-size: 24px;
+}
