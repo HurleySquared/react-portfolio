@@ -10,3 +10,8 @@
   font-size: 28px;
   font-family: 'Crimson Text', serif;
 }
+
+.nav-item a:hover {
+  color: #8d0000;
+  transform: translateY(-2px);
+}

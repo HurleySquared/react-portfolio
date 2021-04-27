@@ -8,6 +8,7 @@ h1 {
 
 .jumbotron {
   background-color: burlywood !important;
+  height: 200px;
 }
 
 @media screen and (max-width: 525px) {
