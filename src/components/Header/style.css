@@ -2,13 +2,9 @@ h1 {
   font-family: 'Cinzel', serif;
   font-size: 60px;
   font-weight: 800;
-  color: #333;
+  color: var(--offWhite);
   text-align: center;
-}
-
-.jumbotron {
-  background-color: burlywood !important;
-  height: 200px;
+  padding-top: 32px;
 }
 
 @media screen and (max-width: 525px) {

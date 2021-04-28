@@ -1,5 +1,24 @@
-body {
+:root {
+  --hazeGrey: #2F4454;
+  --offWhite: #cccccc;
+  --darkGreen: #1C3334;
+  --lightTan: #FFCB9A;
+  --wineRed: #35161d;
+}
+
+#root {
+  background-color: var(--darkGreen);
+  height: 100%;
+}
+
+html, body {
   box-sizing: border-box;
   line-height: 1.5;
+}
+
+.mainContainer {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 80px;
 }
 

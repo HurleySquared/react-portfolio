@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../images/aboutmecropped.jpg";
+import image from "../../images/wa-pro2.jpg";
 import "./style.css";
 
 function AboutMe() {

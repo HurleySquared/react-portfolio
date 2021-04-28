@@ -4,16 +4,16 @@ import "./style.css";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav className="navbar navbar-expand">
         <div id="navbarNav container">
           <ul className="navbar-nav row">
-            <li className="nav-item col-md">
+            <li className="nav-item">
               <Link className="nav-link" to="/">Home</Link>
             </li>
-            <li className="nav-item col-md">
+            <li className="nav-item">
               <Link className="nav-link" to="/Projects">Projects</Link>
             </li>
-            <li className="nav-item col-md">
+            <li className="nav-item">
               <Link className="nav-link" to="/Contact">Contact</Link>
             </li>
           </ul>

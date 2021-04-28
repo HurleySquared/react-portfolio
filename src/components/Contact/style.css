@@ -3,24 +3,25 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 32px;
 }
 
 h2 {
-  color: black;
   font-size: 40px !important;
   text-align: center;
   font-weight: 500 !important;
 }
 
 .contact a {
-  font-size: 36px;
+  font-size: 40px;
   font-family: 'Crimson Text', serif;
   text-decoration: none !important;
-  color: black;
+  color: var(--offWhite) !important;
   margin: 20px;
 }
 
 .contact a:hover {
   cursor: grabbing;
-  color: red;
+  color: var(--lightTan) !important;
+  transform: translateY(4px);
 }

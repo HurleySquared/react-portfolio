@@ -9,12 +9,13 @@
 }
 
 .card-body {
-  background-color: #666;
+  background-color: var(--wineRed);
   border-radius: 4px;
 }
 
 .card-title {
   text-align: center;
+  color: var(--offWhite);
   font-family: 'Cinzel', serif;
   font-size: 30px;
 }
@@ -27,7 +28,7 @@
 
 .card-link {
   text-decoration: none !important;
-  color: burlywood;
+  color: var(--lightTan);
   font-size: 16px;
 }
 

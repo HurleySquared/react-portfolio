@@ -2,7 +2,7 @@
   width: 80%;
   display: flex;
   flex-wrap: wrap;
-  background-color: #555;
+  background-color: var(--wineRed);
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 32px;
@@ -11,13 +11,14 @@
 h2 {
   font-family: 'Cinzel', serif;
   font-size: 44px;
-  color: rgb(221, 218, 218);
+  color: var(--lightTan) !important;
+  border-bottom: 2px solid var(--lightTan);
 }
 
 p {
   font-family: 'Crimson Text', serif;
   font-size: 20px;
-  color: rgb(221, 218, 218);
+  color: var(--offWhite);
 }
 
 img {

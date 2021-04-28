@@ -2,9 +2,10 @@ import React from "react";
 import images from "../../images/boo-homepage.png";
 import faf from "../../images/freshair.png";
 import pass from "../../images/password-gen-working.jpg";
-import empDir from "../../images/employee-ss.png";
+// import empDir from "../../images/employee-ss.png";
 import read from "../../images/ss-readme-gen.png";
 import workout from "../../images/workout-ss2.png";
+import ghastly from "../../images/CardFanLogo.png";
 import "./style.css";
 
 function Projects() {
@@ -33,6 +34,16 @@ function Projects() {
           <a href="https://github.com/HurleySquared/fresh-air-finder" className="card-link">Fresh Air Finder Repo</a>
         </div>
       </div>
+      <div className="card direct">
+        <div className="card-body">
+          <h5 className="card-title">Ghastly Grin</h5>
+          <img src={ghastly} className="card-img-top" alt="..." />
+          <p className="card-text">Ghastly Grin is our teams take on Cards against Humanity in a virtual sense. Built with react and a MySql database,
+          this game lets you create a secure lobby with an ID to send to friens so they can join up!</p>
+          <a href="https://ghastlygrin.herokuapp.com/" className="card-link">Deployed Application</a>
+          <a href="https://github.com/JD-Jaramillo/Ghastly-Grin" className="card-link">Ghastly Grin Repo</a>
+        </div>
+      </div>
       <div className="card read">
         <div className="card-body">
           <h5 className="card-title">README Generator</h5>
@@ -55,7 +66,7 @@ function Projects() {
           <a href="https://github.com/HurleySquared/workout-tracker" className="card-link">Workout Tracker Repo</a>
         </div>
       </div>
-      <div className="card direct">
+      {/* <div className="card direct">
         <div className="card-body">
           <h5 className="card-title">Employee Directory</h5>
           <img src={empDir} className="card-img-top" alt="..." />
@@ -63,7 +74,7 @@ function Projects() {
           <a href="https://hurleysquared.github.io/employee-directory/" className="card-link">Deployed Application</a>
           <a href="https://github.com/HurleySquared/employee-directory" className="card-link">Employee Directory Repo</a>
         </div>
-      </div>
+      </div> */}
       <div className="card password">
         <div className="card-body">
           <h5 className="card-title">Password Generator Application</h5>
