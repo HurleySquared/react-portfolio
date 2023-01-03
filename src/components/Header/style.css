@@ -1,14 +1,18 @@
-h1 {
+.container.header {
+  height: 180px;
+}
+
+.display-4 {
   font-family: 'Cinzel', serif;
-  font-size: 60px;
+  font-size: 3rem !important;
   font-weight: 800;
   color: var(--offWhite);
   text-align: center;
-  padding-top: 32px;
+  padding-top: 1.5rem;
 }
 
 @media screen and (max-width: 525px) {
   h1 {
-    font-size: 40px !important;
+    font-size: 2rem !important;
   }
 }
